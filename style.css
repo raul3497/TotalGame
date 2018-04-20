@@ -1,0 +1,13 @@
+
+
+.secciones ol {
+	list-style: none;
+	display: inline;
+}
+
+.secciones ol li:clic{
+	border-left-style: solid;
+	border-right-style: solid;
+	border-right-color: black;
+	border-left-color: black;
+}
