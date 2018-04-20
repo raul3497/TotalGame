@@ -5,7 +5,9 @@
 	display: inline;
 }
 
-.secciones ol li:clic{
+.secciones ol li{
+	list-style: none;
+	display: inline;
 	border-left-style: solid;
 	border-right-style: solid;
 	border-right-color: black;
