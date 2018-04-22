@@ -5,7 +5,13 @@
 	display: inline;
 }
 
-.secciones ol li:clic{
+.secciones ol li{
+	font-family: Helvetica;
+	list-style: none;
+	display: inline;
+}
+
+.secciones ol li:hover{
 	border-left-style: solid;
 	border-right-style: solid;
 	border-right-color: black;
