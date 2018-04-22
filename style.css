@@ -1,6 +1,8 @@
-<<<<<<< HEAD
 
 
+.secciones{
+	
+}
 .secciones ol {
 	list-style: none;
 	display: inline;
@@ -18,20 +20,3 @@
 	border-right-color: black;
 	border-left-color: black;
 }
-=======
-
-
-.secciones ol {
-	list-style: none;
-	display: inline;
-}
-
-.secciones ol li{
-	list-style: none;
-	display: inline;
-	border-left-style: solid;
-	border-right-style: solid;
-	border-right-color: black;
-	border-left-color: black;
-}
->>>>>>> 7f7c320e32ef58be84eb02e384e02a2afba1164f
