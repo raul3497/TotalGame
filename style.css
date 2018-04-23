@@ -1,17 +1,25 @@
 
 
 .secciones{
-	
+	background-color: gray;
+    vertical-align: center;
+    display: flex;
+}
+#boton{
+	float: right;
 }
 .secciones ol {
 	list-style: none;
 	display: inline;
+	vertical-align: center;
 }
 
 .secciones ol li{
+	padding-left: 1em;
 	font-family: Helvetica;
 	list-style: none;
 	display: inline;
+	color:white;
 }
 
 .secciones ol li:hover{
@@ -19,4 +27,16 @@
 	border-right-style: solid;
 	border-right-color: black;
 	border-left-color: black;
+}
+
+button img{
+	max-height: 3em;
+	max-width: 5em;
+}
+body{
+	margin:0;
+}
+body a{
+	text-decoration: none;
+	color: white;
 }
