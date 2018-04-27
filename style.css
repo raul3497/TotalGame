@@ -4,6 +4,7 @@
 	background-color: gray;
     vertical-align: center;
     display: flex;
+    vertical-align: center;
 }
 #boton{
 	float: right;
@@ -11,22 +12,23 @@
 .secciones ol {
 	list-style: none;
 	display: inline;
-	vertical-align: center;
+	vertical-align: bottom;
+	margin-top: 10px;
+	height: 7%;
 }
 
 .secciones ol li{
-	padding-left: 1em;
+	padding-left: 2em;
 	font-family: Helvetica;
 	list-style: none;
 	display: inline;
 	color:white;
+	align-content:center;
+	padding-top: 25em;
 }
 
 .secciones ol li:hover{
-	border-left-style: solid;
-	border-right-style: solid;
-	border-right-color: black;
-	border-left-color: black;
+	background-color: blue;
 }
 
 button img{
@@ -35,8 +37,17 @@ button img{
 }
 body{
 	margin:0;
+	text-align: center;
 }
 body a{
 	text-decoration: none;
 	color: white;
+}
+
+img{
+	width:60%;
+}
+
+#logo{
+	height: 60%;
 }
